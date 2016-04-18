@@ -1,0 +1,46 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+#source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: expanded # compressed # expanded
+
+# permalink and highlighter
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+# SEO settings
+title: Beans and Boobie Milk
+description: "Educating the masses"
+keywords: "Dietitian, nutrition, pediatric nutrition"
+
+# Site settings
+url: http://beansandboobiemilk.com
+#baseurl: "/beansandboobiemilk"
+# baseurl: ""
+
+# Author settings
+author:
+  name      : Hannah
+  job       : Dietitian
+  bio       : "Dietitian, mother, and citizen of planet earth"
+  thumb     : /images/author.jpg
+  email     : beansandboobiemilk@gmail.com
+  url       : http://www.beansandboobiemilk.com
+  github    : http://github.com/
+  twitter   : http://twitter.com/
+  facebook  : http://facebook.com/
+  linkedin  : http://linkedin.com/
+
+# google_analytics: UA-52446115-1
+repo: http://beansandboobiemilk.github.io/
+
+# comments
+disqus_shortname: "beansandboobiemilk"
